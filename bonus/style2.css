@@ -59,7 +59,7 @@ main{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-left: 4rem;
-    padding-top: 1,5rem;
+    padding-top: 1.5rem;
 
     background-color: var(--white);
 
@@ -83,6 +83,18 @@ main{
     border:0.1px solid var(--bottone2);
    
 }
+ul{
+  list-style-type: none;
+  padding-left: 10px;
+}
+ 
+li{
+  margin-top: 20px;
+  font-size: 15px;
+}
+.subtitle{
+  font-size: 30px;
+}
 
 .tasks{
     font-family: 'Roboto', sans-serif;;
@@ -91,7 +103,7 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-left: 4rem;
-    padding-top: 1,5rem;
+    padding-top: 1.5rem;
     padding-bottom: 3rem;
     background-color: var(--white);
     color: var(--scrittetask);
