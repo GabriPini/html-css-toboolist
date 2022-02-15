@@ -21,23 +21,24 @@ body{
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;;
     font-weight: 800;
-    vertical-align: middle
+    vertical-align: middle;
+   
 
 }
 
 main{
-    margin-top: 4em;
-    margin-left: 12em;
-    margin-right: 12em;  
+    margin-top: 4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;  
 
 }
 
 .Buttons{
-    padding: 1em;
+    padding: 1rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding-left: 4em;
-    padding-top: 1,5em;
+    padding-left: 4rem;
+    padding-top: 1,5rem;
 
     background-color: white;
 
@@ -61,3 +62,65 @@ main{
     border:0.1px solid #CFD5D9;
    
 }
+
+.tasks{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 600;
+    margin-top: 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 4rem;
+    padding-top: 1,5rem;
+    background-color: white;
+    color: #4A4F58;
+}
+ 
+.new_task{
+    padding-top: 10px;
+  
+
+}
+.circle-checkmark {
+    color: #2CC6AB;
+    border: 1px solid #2CC6AB;
+    padding: 1px 4px;
+    border-radius: 50%;
+  }
+
+ .circle-ballot{
+    color: #bb2c2c;
+    border: 1px solid #bb2c2c;
+    padding: 1px 4px;
+    border-radius: 50%;
+
+ }
+
+  .Contenit{
+    color: rgb(255, 255, 255);
+    background-color: #14AAF5;
+    border: 1px solid #14AAF5 ;
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
+  .Contenit1{
+    color: rgb(255, 255, 255);
+    background-color: #AB5DE6;
+    border: 1px solid #AB5DE6 ;
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
+
+  .Contenit2{
+    color: rgb(255, 255, 255);
+    background-color: #2CC6AB;
+    border: 1px solid #2CC6AB ;
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
+  .Contenit3{
+    color: rgb(255, 255, 255);
+    background-color: #FF9B00;
+    border: 1px solid #FF9B00;
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
