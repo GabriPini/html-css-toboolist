@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+}
+
+#site_header {
+    background-color: white;
+    display: block;
+    
+    
+}
+    
+.logo {
+    background-color: white;
+      height: 7rem;
+      vertical-align: middle;
+      
+  }
+.logo_text{
+    background-color: white;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 800;
+    vertical-align: middle
+    
+
+}
