@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    background-color: var(--sfondo) ;
+}
+
+:root {
+    --blue: #000000;
+    --white: #ffffff;
+    --sfondo: #08e400;
+    --bottone2:#00aeff;
+    --bottone1:#db1f1f;
+    --bottone1sf:#077cb6;
+    --bottone1scri:#00db37;
+    --scrittetask:#31f300;
+    --ceckmark:#c4f002;
+    --ballot:#ee00ee;
+    --editorial: #9600d1;
+    --Q1goal: #00b600;
+    --Recruiting: #2f00d8;
+    --Mobile: #00f7ff;
+    --Website: #fff34b;
+    --Sales: #c20101;
+    --Scrittaspan:#ffffff;
+
+}
+
+#site_header {
+    background-color: var(--white);
+    display: block;
+    
+    
+}
+    /* banner */
+.logo {
+    background-color: var(--white);
+      height: 7rem;
+      vertical-align: middle;
+      
+  }
+.logo_text{
+    background-color: var(--white);
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 800;
+    vertical-align: middle;
+   
+
+}
+
+main{
+    margin-top: 4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;  
+
+}
+/* bottoni */
+.Buttons{
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 4rem;
+    padding-top: 1,5rem;
+
+    background-color: var(--white);
+
+}
+
+.button_task{
+    color: var(--white);
+    background-color: var(--blue) ;
+    border-radius: 8px;
+    padding: 12px 28px;
+    border: none;
+    
+    
+}
+
+.button_section{
+    color: var(--bottone1);
+    background-color:var(--white) ;
+    border-radius: 8px;
+    padding: 12px 28px;
+    border:0.1px solid var(--bottone2);
+   
+}
+
+.tasks{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 600;
+    margin-top: 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 4rem;
+    padding-top: 1,5rem;
+    padding-bottom: 3rem;
+    background-color: var(--white);
+    color: var(--scrittetask);
+}
+ /* varie sezioni di tasks */
+.new_task{
+    padding-top: 10px;
+}
+
+.today{
+   padding-top: 20px;   
+}
+.upcoming{
+    padding-top: 20px;
+}
+/* ceckmark e ballot */
+.circle-checkmark {
+    color: var(--ceckmark);
+    border: 1px solid var(--ceckmark);
+    padding: 1px 4px;
+    border-radius: 50%;
+  }
+
+ .circle-ballot{
+    color: var(--ballot);
+    border: 1px solid var(--ballot);
+    padding: 1px 4px;
+    border-radius: 50%;
+
+ }
+/* i vari contenit devinisco i colori dei quadrati vicino alle scritte */
+  .Contenit{
+    margin-left: 5px;
+    color: var(--Scrittaspan);
+    background-color: var(--editorial);
+    border: 1px solid var(--editorial) ;
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
+  .Contenit1{
+    margin-left: 5px;
+    color: var(--Scrittaspan);
+    background-color: var(--Q1goal);
+    border: 1px solid var(--Q1goal) ;
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
+
+  .Contenit2{
+    margin-left: 5px;
+    color: var(--Scrittaspan);
+    background-color: var(--Recruiting);
+    border: 1px solid var(--Recruiting) ;
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
+  .Contenit3{
+    margin-left: 5px;
+    color: var(--Scrittaspan);
+    background-color: var(--Mobile);
+    border: 1px solid var(--Mobile);
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
+  .Contenit4{
+    margin-left: 5px;
+    color: var(--Scrittaspan);
+    background-color: var(--Website);
+    border: 1px solid var(--Website);
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
+  .Contenit5{
+    margin-left: 5px;
+    color: var(--Scrittaspan);
+    background-color: var(--Sales);
+    border: 1px solid var(--Sales);
+    padding: 6px 10px;
+    border-radius: 20%;
+  }
+  
