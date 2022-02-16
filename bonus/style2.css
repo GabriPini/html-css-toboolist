@@ -8,7 +8,7 @@ body{
     --white: #ffffff;
     --sfondo: #08e400;
     --bottone2:#00aeff;
-    --bottone1:#db1f1f;
+    --bottone2sc:#db1f1f;
     --bottone1sf:#077cb6;
     --bottone1scri:#00db37;
     --scrittetask:#31f300;
@@ -66,8 +66,8 @@ main{
 }
 
 .button_task{
-    color: var(--white);
-    background-color: var(--blue) ;
+    color: var(--bottone1scri);
+    background-color: var(--bottone1sf) ;
     border-radius: 8px;
     padding: 12px 28px;
     border: none;
@@ -76,8 +76,8 @@ main{
 }
 
 .button_section{
-    color: var(--bottone1);
-    background-color:var(--white) ;
+    color: var(--bottone2sc);
+    background-color:var(--bottone2) ;
     border-radius: 8px;
     padding: 12px 28px;
     border:0.1px solid var(--bottone2);
